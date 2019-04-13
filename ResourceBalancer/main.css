@@ -1,0 +1,194 @@
+
+
+
+
+body {
+	margin:0;
+	width:100%;
+	height:100%;
+	background-image:url(images/border.jpg);
+	font-size:9pt; font-family: Verdana, Arial;
+	background-color:#d2c09e;
+}
+.navbg {
+	background-image:url(images/main.jpg); border:1px solid #804000;
+	width:100%;
+	height:25px;
+	border-bottom:1px solid #804000;
+	border-top:1px solid #804000;
+	text-align: center;
+
+	
+	}
+#navcontainer ul
+{
+	margin:0px;
+	padding-top: 0px;
+	list-style-type: none;
+	text-align: center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	display:block;
+	width:100%;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+text-align: center;
+font-size: 12px;
+font-weight:bold;
+padding-right: 10px;
+	padding-top:5px;
+	padding-bottom:5px;
+padding-left: 10px;
+color:#804000;
+width: 100%;
+
+}
+
+#navcontainer ul li a:hover
+{
+color:#0082BE;
+background-image:url(images/main.jpg); border:1px solid #804000;
+font-size: 12px;
+font-weight:bold;
+text-decoration:none;
+margin-top:8px;
+width: 100%;
+height:28px;
+}
+
+a:link	{ font-weight:bold; color: #804000; text-decoration:none; }
+a:visited	{  font-weight:bold; color: #0000FF; text-decoration:none; }
+a:active	{  font-weight:bold; color: #0082BE; text-decoration:none; }
+a:hover { font-weight:bold; color: #0082BE; text-decoration:none; }
+
+td { font-size:9pt; }
+.hidden { color:#DED3B9; }
+table.main { background-color:#F1EBDD; background-image:url(images/main.jpg); border:1px solid #804000;}
+table.news { background-color:#F1EBDD; }
+.in_border { background-color:#F1EBDD; text-align:left;}
+form { margin: 0px; }
+p:first-child, h1:first-child, h2:first-child, h3:first-child, h4:first-child,
+	h5:first-child, h6:first-child, h1+p, h2+p, h3+p, h4+p, h5+p, h6+p { margin-top: 0px; }
+table.blind { border-spacing:0px; }
+table.blind td { padding: 0px; }
+
+table.left { float: left;}
+table.vis {border-collapse:separate;border: 1px solid #997733;}
+table.vis td { background-color:#F7EED3; }
+table.vis td.selected { background-color:#F0D49A; }
+table.vis tr.row_a td { background-color:#F6EBCA; background-image:none;}
+table.vis tr.row_b td { background-color:#FBF4DD; background-image:none;}
+.main td{padding:2px;} /* Must follow navi-border td otherwise no padding in Opera */
+
+r.center td { text-align:center; }
+tr.lit td { font-weight:bold; background-color:#F0D49A; background-image:none;}
+tr.lit2 td { font-weight:bold; background-color:#F0E6C8; background-image:none;}
+tr.mini td { font-style: italic; font-size: x-small }
+th		{ font-size:9pt; text-align: left; font-weight:bold; background-color:#DFCCA6; }
+.top_background { background-image: url(images/header.jpg); background-repeat: repeat-x; height: 27px; width: 100%; position: absolute; top:0; z-index: -1; }
+
+h1		{ font-size:16pt;}
+h2		{ font-size:14pt; font-style:italic;}
+h3      { font-size:12pt; font-weight:bold; font-style:italic;}
+h4      { font-size:10pt; font-weight:bold; font-style:italic; margin-bottom:4pt}
+h5      { font-size:10pt; font-weight:bold; margin-bottom:2pt}
+h6      { font-size:10pt; font-weight:normal; margin-bottom:2pt}
+h7		{ font-size:8pt; font-weight:bold; margin-bottom:2pt}
+img   { border: none; }
+
+table.box {
+	
+	background-repeat: repeat-x;
+	border-color:#997733;
+	vertical-align: middle;
+	font-size:11px;
+	text-align:center;
+	margin-bottom:20px;
+
+	width:40%
+}
+
+table.box th	{
+	white-space:nowrap;
+	background-color:#DED3B9;
+	text-align:center
+}
+table.box td  {
+	white-space:nowrap;
+	background-color:#FBF3DF;
+	text-align:center
+	}
+.navvy
+{
+width: 90%;
+margin-left:5%;
+font-size: 11px;
+padding-bottom:10px;
+padding-top:5px;
+text-align: center;
+}
+
+ul.navvylist
+{
+text-align: left;
+list-style: none;
+padding: 0;
+margin: 0;
+width: 100%;
+}
+
+ul.navvylist li
+{
+display: block;
+margin: 0;
+padding: 0;
+}
+ul.navvylist li a
+{
+display: block;
+width: 90%;
+font-weight:normal;
+margin:0;
+color: #000;
+background:url(images/main.jpg) repeat-x #ededed;
+border:bottom:1px solid #ededed;
+text-decoration: none;
+PADDING-LEFT:10PX;
+padding-top:7px;
+padding-bottom:7px;
+}
+
+.navvy>ul#navvylist li a { width: auto; }
+
+ul.navvylist li#active a
+{
+background: #F1F1F1;
+color: #2A508A;
+}
+
+ul.navvylist li a:hover, ul#navvylist li#active a:hover
+{
+color: #000;
+font-weight:bold;
+background: #fff;
+}
+.leftcolumn{
+width:273px;
+padding-left:9px;
+padding-bottom:20px;
+background: #F1F1F1;
+float:left;
+text-align:left;
+}
+.twap{
+margin-left:4px;	
+margin-right:4px;	
+}
