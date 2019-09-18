@@ -10,7 +10,7 @@ var version = "2.10 Unofficial";
 var quickChangedLog= "<ul><li>Introducing auto farming for A, B, C keys</li><li>Minor Bug fixes</li></ul>";
 var scriptName = "LA Enhancer";
 var scriptURL = "https://cdn.jsdelivr.net/gh/RazorBlue/RazorScripts/LAE/";
-var updateNotesURL = "http://forum.tribalwars.net/showthread.php?266604-ntoombs19-s-FA-Filter&p=6785655&viewfull=1#post6785655";
+var updateNotesURL = "";
 var working = true;
 var resourcesLoaded = false;
 var scriptLoaded = false;
@@ -98,9 +98,9 @@ var keyPressSettings = {
 	"skip_code": 83,
 	"skip_char": "S",
 	"left_code": 37,
-	"left_char": "â†",
+	"left_char": "&larr;",
 	"right_code": 39,
-	"right_char": "â†’",
+	"right_char": "&rarr;",
 	"priorityOneEnabled": true,
 	"priorityOneProfile": "Default",
 	"priorityOneButton": "Skip",
@@ -112,7 +112,7 @@ var keyPressSettings = {
 	"priorityThreeButton": "Skip",
 	"defaultButton": "Skip"
 };
-var availableLangs = ["en", "es", "el", "ar", "it"];
+var availableLangs = ["en"];
 
 /**********************************************************************
  *	Init script
