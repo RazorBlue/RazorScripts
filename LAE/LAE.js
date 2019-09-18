@@ -1,12 +1,12 @@
 /*	Author: ntoombs19, Ash
  *	Name: LA Enhancer 2
- *	Version: 2.0
+ *	Version: 2.11
  *	Client script: javascript:window.top.$.getScript('https://dl.dropboxusercontent.com/u/26362756/laEnhancer/test.js');void(0); */
 
 /**********************************************************************
  *	Global variables
  */
-var version = "2.10 Unofficial";
+var version = "2.11 Unofficial";
 var quickChangedLog= "<ul><li>Introducing auto farming for A, B, C keys</li><li>Minor Bug fixes</li></ul>";
 var scriptName = "LA Enhancer";
 var scriptURL = "https://cdn.jsdelivr.net/gh/RazorBlue/RazorScripts/LAE/";
