@@ -6,8 +6,8 @@
 /**********************************************************************
  *	Global variables
  */
-var version = "2.0 Unofficial";
-var quickChangedLog= "<ul><li>Quick fix to let LA Enhancer be loaded from any page</li><li>Resolved bug that required skipping the first row when sending with hotkeys</li></ul>";
+var version = "2.10 Unofficial";
+var quickChangedLog= "<ul><li>Introducing auto farming for A, B, C keys</li><li>Minor Bug fixes</li></ul>";
 var scriptName = "LA Enhancer";
 var scriptURL = "https://cdn.jsdelivr.net/gh/RazorBlue/RazorScripts/LAE/";
 var updateNotesURL = "http://forum.tribalwars.net/showthread.php?266604-ntoombs19-s-FA-Filter&p=6785655&viewfull=1#post6785655";
